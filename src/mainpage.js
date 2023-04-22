@@ -69,7 +69,7 @@ function _createRightBar() {
   const right = document.createElement("div");
   right.classList.add("right-bar");
   const header = document.createElement("h1");
-  header.textContent = "ichiraku Ramen";
+  header.textContent = "Ichiraku Ramen";
   const quote = document.createElement("div");
   quote.classList.add("quote");
   quote.innerHTML =

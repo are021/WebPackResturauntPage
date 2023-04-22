@@ -44,8 +44,22 @@ body{
 /*Main body of the website*/
 
 div.body{
+    background-image: url('../src/page_background.png');
+    background-position:center;
+    background-size:cover;
     display:grid;
     grid-template-columns: 1fr 2fr;
+    height:100vh;
+}
+
+.body > .left-bar > div > img{
+  height:auto;
+  width:30vw;
+}
+
+.body > .right-bar > img{
+  height:auto;
+  width:35vw;
 }
 
 
