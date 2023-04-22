@@ -95,6 +95,16 @@
     font-style:italic
   }
   
+/* Contact Page*/
+
+.contact-page{
+  height:100vh;
+  background-color: var(--background-color);
+}
+
+
+
+
   /*Curent page class: Code in JS*/
   .navbar > div > div.current-page {
     background-color: var(--selected-page);
