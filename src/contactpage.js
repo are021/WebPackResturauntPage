@@ -36,6 +36,7 @@ function _createMenuBody() {
   body.appendChild(dummy1);
   body.appendChild(page);
   body.appendChild(dummy2);
+  return body;
 }
 
 function _innerPage() {
@@ -48,7 +49,7 @@ function _innerPage() {
   ad.innerText = "Address : 123 Genin Street";
   const myIcon = new Image();
   myIcon.src = Map;
-  map.appendChild("ad");
+  map.appendChild(ad);
   map.appendChild(myIcon);
 
   //Contact-Info
