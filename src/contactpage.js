@@ -57,17 +57,20 @@ function _innerPage() {
   info.classList.add("contact-info");
   const head = document.createElement("h1");
   head.innerText = "Contact Us!";
-  const phone = document.createElement("div");
-  const email = document.createElement("div");
-  const deliv = document.createElement("div");
+
+  const ul = document.createElement("ul");
+  const phone = document.createElement("li");
+  const email = document.createElement("li");
+  const deliv = document.createElement("li");
   phone.innerText = "Phone : 800 - InstantRamen";
   email.innerText = "Email : 123ichirakufree.konoha.org";
   deliv.innerText = "Delivery : We now do Doordash!";
 
+  ul.appendChild(phone);
+  ul.appendChild(email);
+  ul.appendChild(deliv);
   info.appendChild(head);
-  info.appendChild(phone);
-  info.appendChild(email);
-  info.appendChild(deliv);
+  info.appendChild(ul);
 
   page.appendChild(map);
   page.appendChild(info);
